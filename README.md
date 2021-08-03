@@ -2,4 +2,4 @@
  Evaluate class quality based on teacher, student, subject information, grades, feedbacks
  
  # Purpose 
- Building the data p
+ Building the data pipeline
