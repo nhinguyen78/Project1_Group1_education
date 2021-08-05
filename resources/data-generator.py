@@ -31,7 +31,29 @@ def create_csv_file_Order_Line():
                     'Instructor_ranked': fake.random_int(1,5)
                 }
             )
+            
+def create_csv_file_Courses_Info():
+    # pdb.set_trace()
+    time_stampe = datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")
+    raw_path = os.path.dirname(__file__)
+    with open(f'{raw_path}\CoursesData-{time_stampe}.csv', 'w', newline='') as csvfile:
+        fieldnames = ['Course_ID','Course_Name','Instructor_ID','Total_hours', 'Price' ]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        RECORD_COUNT = 1000
+        writer.writeheader()
+        for i in range(RECORD_COUNT):
+            writer.writerow(
+                {
+                    'Course_ID': i,
+                    'Course_Name': fake.name(),
+                    'Instructor_ID': fake.random_int(1,20),
+                    'Total_hours': fake.random_int(1,100),
+                    'Price': fake.pricetag()
+                }
+            )
 
 if __name__ == '__main__':
     print('Creating a fake data...')
     create_csv_file_Order_Line()
+    create_csv_file_Instructors_Info()
+
