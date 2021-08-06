@@ -86,7 +86,7 @@ def create_csv_file_Transactions():
     time_stampe = datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")
     raw_path = os.path.dirname(__file__)
     with open(f'{raw_path}\TracsactionData-{time_stampe}.csv', 'w', newline='') as csvfile:
-        fieldnames = ['Transaction_ID','Instructor_ID', 'Course_ID', 'Student_ID','Instructor_ranked','Date']
+        fieldnames = ['Transaction_ID','Instructor_ID', 'Course_ID', 'Student_ID','Date']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         RECORD_COUNT = 2000
         writer.writeheader()
