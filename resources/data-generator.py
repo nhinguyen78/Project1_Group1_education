@@ -10,7 +10,7 @@ from faker import Faker
 fake = Faker()
 
 
-def create_csv_file_Order_Line():
+def create_csv_file_Instructors_Info():
     time_stampe = datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")
     raw_path = os.path.dirname(__file__)
     with open(f'{raw_path}\InstructorData-{time_stampe}.csv', 'w', newline='') as csvfile:
@@ -54,6 +54,6 @@ def create_csv_file_Courses_Info():
 
 if __name__ == '__main__':
     print('Creating a fake data...')
-    create_csv_file_Order_Line()
     create_csv_file_Instructors_Info()
+    create_csv_file_Courses_Info()
 
