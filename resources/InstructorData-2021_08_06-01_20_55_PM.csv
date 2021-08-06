@@ -1,0 +1,41 @@
+Instructor_ID,Instructor_Name,Instructor_email,Instructor_address,Instructor_PhoneNum,Instructor_level,Total_courses_released,Instructor_ranked,Gender
+0,Erik Hawkins,thomas70@monroe.org,"USS Hernandez
+FPO AE 87090",5701830057080,None,9,2,Female
+1,Lauren Davis,susanbrewer@hotmail.com,"6609 Bailey Field
+West Amy, NC 53212",3211685021069,Professor,9,2,Female
+2,Patrick Duran,nicholas47@benson-bradley.com,"389 Booth Turnpike
+Cantrellport, DE 26596",3975412795169,Doctor,7,4,Female
+3,Teresa Norris,aaron59@gmail.com,"4778 Taylor Tunnel Apt. 786
+Stevenside, MT 63844",3250149790669,Professor,7,1,Male
+4,Chad Giles,ytorres@nguyen-collins.biz,"2609 Larry Glen Suite 686
+New Robert, UT 90576",4332523784406,Doctor,12,1,Male
+5,Matthew Hunter,dennismichelle@richards.org,"2499 Patterson Pass
+West Kyleborough, OH 75952",3008451914027,Master,8,4,Male
+6,Mrs. Julia Herman,james34@hotmail.com,"USS White
+FPO AE 78379",5049507153988,Professor,6,4,Male
+7,Kristina Wilson,patricia29@huff.com,"444 Thompson Ville
+Websterhaven, MD 05328",9674313794793,Other,9,4,Male
+8,Ryan Hamilton,jennifer65@yahoo.com,"655 Mary Landing
+Laraland, UT 01516",1997572042294,None,6,4,Male
+9,Richard Donovan,douglas10@flynn-mccullough.com,"1749 Knight Shoals Suite 662
+Onealshire, NC 56139",9439961056461,None,1,2,Female
+10,Nicholas Sanchez,kelseylopez@morris-bennett.com,"129 Michael Walks Suite 887
+Jonathanfort, SD 07509",3429505216441,Bacherlor,7,3,Male
+11,Paul Jones,mendezlinda@perez-nelson.com,"937 Green Landing Apt. 877
+Oliverside, PA 94925",7087443094337,Bacherlor,14,4,Female
+12,Dr. Kenneth Patterson MD,derekbarrett@hotmail.com,"987 Pena Bypass
+South Anthony, NY 44742",7088311150581,Doctor,20,1,Female
+13,Toni Williams,katherinepeterson@rivera.biz,"0575 Pittman Fall
+New Ashley, AZ 09341",4797547476615,Bacherlor,5,4,Female
+14,Sarah Henry,rhonda74@archer.com,"488 Casey Fork
+Crystalhaven, AK 08857",1323302662782,None,6,1,Male
+15,Heather Hoffman,cheryllee@bradley.com,"13372 Wilson Island Apt. 179
+West Williamstad, RI 29265",3552858067169,Other,5,5,Female
+16,Zachary Holland,mccormickjames@owens-rodriguez.com,"327 Gonzalez Glens
+South Matthewmouth, TN 78718",3602869579543,Other,4,5,Male
+17,Jennifer Kelly,christina92@gmail.com,"7855 Ross Meadows Suite 492
+Port Jamesshire, WA 58278",6066843836117,Master,2,4,Female
+18,Robert Campbell,dalerosario@hampton-gilbert.com,"28381 Sherman Prairie Suite 995
+Lake Daniel, WA 22576",8390096798154,Other,4,2,Male
+19,Jonathan Fisher,fryemichelle@hotmail.com,"82090 Gabriel Squares Apt. 390
+North Joshua, HI 98207",9160611159510,None,14,4,Male
