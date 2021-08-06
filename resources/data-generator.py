@@ -97,7 +97,6 @@ def create_csv_file_Transactions():
                     'Instructor_ID': fake.random_int(1,10),
                     'Course_ID': fake.random_int(1,30),
                     'Student_ID':fake.random_int(1,1000),
-                    'Instructor_ranked': fake.random_int(1,5),
                     'Date': random_date("1/1/2017", "6/1/2021", random.random())
                 }
             ) 
