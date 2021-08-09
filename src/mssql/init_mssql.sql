@@ -63,3 +63,53 @@ CREATE TABLE [dbo].[TracsactionData](
 ) ON [PRIMARY]
 GO
 
+/****** Object:  Table [dbo].[InstructorData] ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[InstructorData](
+	[Instructor_ID] [int] NOT NULL,
+	[Instructor_Name] [nvarchar](70) NOT NULL,
+	[Instructor_email] [nvarchar](50) NOT NULL, 
+   	[Instructor_address] [nvarchar](70) NOT NULL,
+	[Instructor_PhoneNum] [nvarchar](25) NOT NULL,
+	[Instructor_level] [nvarchar](20) NOT NULL,
+   	[Total_courses_released] [int] NOT NULL,
+    	[Instructor_ranked] [int] NOT NULL,
+    	[Gender] [nvarchar](10) NOT NULL,
+ CONSTRAINT [PK_InstructorData] PRIMARY KEY CLUSTERED 
+(
+	[Instructor_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[StudentData] ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[StudentData](
+	[Student_ID] [int] NOT NULL,
+	[Name] [nvarchar](70) NOT NULL,
+	[Gender] [nvarchar](10) NOT NULL, 
+   	[DOB] [date] NOT NULL,
+    	[Email] [nvarchar](50) NOT NULL,
+    	[Address] [nvarchar](70) NOT NULL,
+	[PhoneNumber] [nvarchar](25) NOT NULL,
+    	[Final_Score] [int] NOT NULL,
+    	[Rating_class] [int] NOT NULL,
+    	[Rating_teacher] [int] NOT NULL,
+    	[Class_recommendation] [nvarchar](5) NOT NULL,
+ CONSTRAINT [PK_StudentData] PRIMARY KEY CLUSTERED 
+(
+	[Student_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
